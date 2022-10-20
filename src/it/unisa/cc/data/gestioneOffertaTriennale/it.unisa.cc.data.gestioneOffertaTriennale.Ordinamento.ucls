@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="it.unisa.cc.data.gestioneOffertaTriennale" project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/data/gestioneOffertaTriennale" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1042" width="931" x="-62" y="58"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="it.unisa.cc.data.gestioneOffertaTriennale.DBOrdinamentoTriennale" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/data/gestioneOffertaTriennale/DBOrdinamentoTriennale.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="618" y="233"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="it.unisa.cc.data.gestioneOffertaTriennale.OrdinamentoTriennale" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/data/gestioneOffertaTriennale/OrdinamentoTriennale.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="932" width="408" x="-47" y="143"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="4">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="5" name="ordinamentoTriennale"/>      
+      <multiplicity id="6" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

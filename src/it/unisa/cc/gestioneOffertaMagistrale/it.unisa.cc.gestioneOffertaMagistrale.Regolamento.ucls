@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="it.unisa.cc.gestioneOffertaMagistrale" project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="726" width="1070" x="-180" y="29"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="2" language="java" name="it.unisa.cc.gestioneOffertaMagistrale.FacadeGestioneOffertaMagistrale" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale/FacadeGestioneOffertaMagistrale.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="107" y="204"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="it.unisa.cc.gestioneOffertaMagistrale.GestioneOffertaMagistrale" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale/GestioneOffertaMagistrale.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="614" y="235"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="it.unisa.cc.gestioneOffertaMagistrale.CaricaListaCurriculumServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale/CaricaListaCurriculumServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-18" y="476"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="it.unisa.cc.gestioneOffertaMagistrale.InserimentoCurriculumMagistraleServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale/InserimentoCurriculumMagistraleServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="537" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" 
+    name="it.unisa.cc.gestioneOffertaMagistrale.CaricaCurriculumMagistraleAnnoPrecedenteServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale/CaricaCurriculumMagistraleAnnoPrecedenteServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="170" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="it.unisa.cc.gestioneOffertaMagistrale.VisualizzaCurriculumMagistraleServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneOffertaMagistrale/VisualizzaCurriculumMagistraleServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="288" x="530" y="379"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="8">    
+    <bendpoint x="385" y="439"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="9" name="gestioneOffertaTrennale">        
+        <position height="18" width="126" x="390" y="406"/>      
+      </attribute>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="12" name="gestioneOffertaMagistrale">        
+        <position height="18" width="133" x="133" y="414"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="15" name="gestore"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <bendpoint x="177" y="442"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="18" name="gestioneOffertaMagistrale">        
+        <position height="18" width="133" x="228" y="318"/>      
+      </attribute>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="20">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="21">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="22" name="gestioneOffertaMagistrale"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

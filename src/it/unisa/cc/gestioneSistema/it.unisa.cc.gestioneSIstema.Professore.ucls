@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="it.unisa.cc.gestioneSistema" project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="955" width="1143" x="-175" y="36"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="2" language="java" name="it.unisa.cc.gestioneSistema.FacadeGestioneSistema" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/FacadeGestioneSistema.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="83" y="232"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="it.unisa.cc.gestioneSistema.GestioneSistema" project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/GestioneSistema.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="605" y="276"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="it.unisa.cc.gestioneSistema.InserimentoProfessoreServlet" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/InserimentoProfessoreServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="-13" y="513"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="it.unisa.cc.gestioneSistema.ModificaStatoProfessoreServlet" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/ModificaStatoProfessoreServlet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="23" y="757"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="it.unisa.cc.gestioneSistema.VisualizzazioneDettaglioProfessoreServlet" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/VisualizzazioneDettaglioProfessoreServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="424" y="636"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="it.unisa.cc.gestioneSistema.VisualizzaMonteOreProfessore" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/VisualizzaMonteOreProfessore.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="288" x="276" y="754"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="it.unisa.cc.gestioneSistema.VisualizzazioneListaProfessoriServlet" 
+    project="provaComputingCouncil" 
+    file="/provaComputingCouncil/src/it/unisa/cc/gestioneSistema/VisualizzazioneListaProfessoriServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="288" x="643" y="527"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="9">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="10" name="gestioneSistema">        
+        <position height="18" width="87" x="284" y="370"/>      
+      </attribute>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="12">    
+    <bendpoint x="223" y="563"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="13" name="gestioneSistema">        
+        <position height="18" width="87" x="110" y="392"/>      
+      </attribute>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <bendpoint x="405" y="502"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="16" name="gestioneSistema">        
+        <position height="18" width="87" x="502" y="485"/>      
+      </attribute>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="19" name="gestSistema"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="21">    
+    <bendpoint x="225" y="695"/>    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="22" name="gestioneSistema">        
+        <position height="18" width="87" x="183" y="730"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="24">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="25">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="26" name="gestioneSistema"/>      
+      <multiplicity id="27" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

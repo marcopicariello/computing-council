@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="it.unisa.cc.gestioneProgrDidattica" project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneProgrDidattica" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="625" width="862" x="-73" y="28"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="2" language="java" name="it.unisa.cc.gestioneProgrDidattica.FacadeGestioneProgrammazioneDidattica" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneProgrDidattica/FacadeGestioneProgrammazioneDidattica.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="354" x="-69" y="124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="3" language="java" name="it.unisa.cc.gestioneProgrDidattica.GestioneProgrammazioneDidattica" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneProgrDidattica/GestioneProgrammazioneDidattica.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="354" x="317" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="it.unisa.cc.gestioneProgrDidattica.inserimentoProgrammazioneDidatticaServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneProgrDidattica/inserimentoProgrammazioneDidatticaServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="288" x="-45" y="282"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="it.unisa.cc.gestioneProgrDidattica.modificaProgrammazioneDidatticaServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneProgrDidattica/modificaProgrammazioneDidatticaServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="522" y="426"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="it.unisa.cc.gestioneProgrDidattica.VisualizzaProgrammazioneDidatticaServlet" 
+    project="NuovoComputing" 
+    file="/NuovoComputing/src/it/unisa/cc/gestioneProgrDidattica/VisualizzaProgrammazioneDidatticaServlet.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="198" y="535"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="8">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="9" name="gestore"/>      
+      <multiplicity id="10" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="11">    
+    <bendpoint x="332" y="364"/>    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="12" name="gestioneprogrammazioneDidattica">        
+        <position height="18" width="170" x="66" y="435"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="15" name="gestioneprogrammazioneDidattica">        
+        <position height="18" width="170" x="349" y="313"/>      
+      </attribute>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="18" name="gestioneprogrammazioneDidattica"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
